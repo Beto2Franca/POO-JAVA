@@ -1,16 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.aula04;
 
-/**
- *
- * @author albertofranca
- */
 public class Aula04 {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       Caneta c1 = new Caneta();
+       c1.setModelo("BIC");
+       c1.setPonta(0.7f);
+       c1.status();
     }
 }
